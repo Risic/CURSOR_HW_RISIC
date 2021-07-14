@@ -7,11 +7,11 @@ body {
     margin: 30px auto;
     max-width: 1440px;
     background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
 }
 
 .version {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
@@ -22,8 +22,6 @@ body {
 }
 
 .banner {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 110px;
     line-height: 133px;
@@ -34,8 +32,6 @@ body {
 
 .creator {
     height: 48px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 40px;
     line-height: 48px;
@@ -44,13 +40,16 @@ body {
     margin-bottom: 197px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .wrappers-long {
-    position: absolute;
+    position: relative;
     max-width: 1440px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+    margin-bottom: 72px;
 }
 
 .wrappers-long .one {
@@ -167,4 +166,146 @@ body {
     width: 16px;
     height: 16px;
     margin: 2px 0px 2px 709px;
+}
+
+.wrapper-short {
+    width: 560px;
+    height: 160px;
+    margin-bottom: 72px;
+}
+
+.wrapper-short .one {
+    position: relative;
+    height: 40px;
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.wrapper-short .one .bg-image {
+    display: inline-block;
+    position: absolute;
+    margin: 2px 10px 0 0;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    background: rgba(234, 76, 137, 0.1);
+    border-radius: 10px;
+}
+
+.wrapper-short .one>p {
+    width: 347px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0D0C22;
+    margin: 0 10px 0 46px;
+
+}
+
+.wrapper-short .one>p>a {
+    text-decoration: none;
+    color: #EA4C89;
+}
+
+.wrapper-short .one .decline-btn {
+    position: absolute;
+    width: 63px;
+    height: 28px;
+    margin: 6px 10px 6px 0;
+    background: rgba(13, 12, 34, 0.05);
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0D0C22;
+}
+
+.wrapper-short .one .decline-btn:hover {
+    background-color: #E5E5E5;
+    color: #0B2239;
+    box-shadow: 0 12px 12px 0 rgba(37, 30, 30, 0.24), 0 17px 20px 0 rgba(37, 30, 30, 0.19);
+}
+
+.wrapper-short .one .decline-btn:active {
+    background: rgba(234, 76, 137, 0.1);
+    box-shadow: 0 3px rgb(190, 190, 190);
+    transform: translateY(2px);
+}
+
+.wrapper-short .one .allow-btn {
+    position: absolute;
+    width: 52px;
+    height: 28px;
+    margin: 6px 0 6px 73px;
+    background: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.wrapper-short .one .allow-btn:hover {
+    background-color: #e42c73be;
+    color: #0B2239;
+    box-shadow: 0 12px 12px 0 rgba(37, 30, 30, 0.24), 0 17px 20px 0 rgba(37, 30, 30, 0.19);
+}
+
+.wrapper-short .one .allow-btn:active {
+    background: rgba(26, 109, 44, 0.37);
+    box-shadow: 0 3px rgb(190, 190, 190);
+    transform: translateY(2px);
+}
+
+.wrapper-short .two {
+    height: 40px;
+    background: #26262B;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+.wrapper-short .two>p {
+    display: inline-block;
+    width: 469px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.wrapper-short .two>p>a {
+    color: #e6842e;
+}
+
+.wrapper-short .two .okey-btn {
+    position: absolute;
+    margin: 6px 0 0 0;
+    width: 49px;
+    height: 28px;
+    border-style: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.wrapper-short .two .okey-btn:hover {
+    background-color: #E5E5E5;
+    color: #0B2239;
+    box-shadow: 0 12px 12px 0 rgba(37, 30, 30, 0.24), 0 17px 20px 0 rgba(37, 30, 30, 0.19);
+}
+
+.wrapper-short .two .okey-btn:active {
+    background: #e6842e;
+    box-shadow: 0 3px rgb(85, 77, 77);
+    transform: translateY(2px);
 }

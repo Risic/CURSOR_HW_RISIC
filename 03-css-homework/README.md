@@ -1,6 +1,6 @@
 # CURSOR_HW_RISIC
 
-02-html-homework
+03-css-homework
 
 GitPages:
 
