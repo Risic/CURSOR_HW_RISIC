@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px auto;
+    max-width: 1440px;
+    background: #E5E5E5;
+}
+
+.version {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    color: #0B2239;
+    opacity: 0.3;
+    margin-bottom: 7px;
+}
+
+.banner {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 133px;
+    align-items: center;
+    color: #0B2239;
+    margin-bottom: 17px;
+}
+
+.creator {
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #0B2239;
+    opacity: 0.3;
+    margin-bottom: 197px;
+}
+
+
+.wrappers-long {
+    position: absolute;
+    max-width: 1440px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.wrappers-long .one {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    background: #0B2239;
+    margin-bottom: 24px;
+}
+
+.wrappers-long .one>p {
+    position: relative;
+    display: inline-block;
+    margin: 16px 0px 16px 120px;
+    width: 922px;
+    height: 40px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+}
+
+.wrappers-long .one>a {
+    display: inline-block;
+    position: absolute;
+    width: 106px;
+    height: 20px;
+    margin: 26px 10px 26px 32px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4AD295;
+    text-align: center;
+}
+
+.wrappers-long .one>a:hover {
+    cursor: pointer;
+}
+  
+.wrappers-long .one>a:active {
+    cursor: pointer;
+    color:darkblue;
+ }
+
+.wrappers-long .one>button {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 36px;
+    margin: 18px 0px 18px 148px;
+    background-color: #4AD295;
+    border-radius: 2px;
+    border-color: #4AD295;
+    border-style:solid;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.wrappers-long .one>button:hover {
+    background-color: #E5E5E5;
+    color: #0B2239;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.wrappers-long .one>button:active {
+    background-color: #4AD295;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.wrappers-long .two {
+    position: relative;
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+}
+
+.wrappers-long .two .container {
+    position: relative;
+    top: 16px;
+    bottom: 16px;
+    left: 345.5px;
+    right: 345.5px;
+    bottom: 16px;
+    width: 749px;
+    height: 20px;
+}
+
+.wrappers-long .two .container .war {
+    width: 16px;
+    height: 16px;
+    margin: 2px 8px 2px 0px;
+}
+
+.wrappers-long .two .container>p {
+    display: inline-block;
+    position: absolute;
+    width: 689px;
+    height: 20px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.wrappers-long .two .container .close {
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0px 2px 709px;
+}

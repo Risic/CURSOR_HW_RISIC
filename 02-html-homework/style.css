@@ -1,0 +1,90 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+html {
+    background: url(images/mars.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    max-width: 794px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid whitesmoke;
+    border-radius: 10px;
+    background-color: white;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(221,118,139,0.8606793059020483) 100%);
+}
+
+main {
+    margin: 10% 10%;
+    
+}
+
+h1, h2, hr, ul, p {
+    margin: 2% 0%;
+}
+
+h1 {
+    font-size:32px;
+    font-family:Georgia;
+    background-color:transparent;
+    font-weight:400;
+    white-space:pre;
+    max-width: 794px;
+}
+
+@media screen and (max-width: 500px) {
+    h1, h2 {
+        font-size: 26px;
+    }
+}
+
+h2 {
+    font-size:21.32px;
+    font-family:Arial;
+    background-color:transparent;
+    font-weight:700;
+    white-space:pre;
+}
+
+p, ul {
+    font-size:14.6px;
+    font-family:Arial;
+    background-color:transparent;
+    font-weight: 520;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+span {
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+a:active {
+    text-decoration: underline;
+    cursor: pointer;
+    color:darkblue;
+  }
+  
