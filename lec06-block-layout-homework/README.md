@@ -4,4 +4,4 @@
 
 GitPages:
 
-https://risic.github.io/CURSOR_HW_RISIC/lec06-block-layout-homework/03-hw.html
+https://risic.github.io/CURSOR_HW_RISIC/lec06-block-layout-homework/
