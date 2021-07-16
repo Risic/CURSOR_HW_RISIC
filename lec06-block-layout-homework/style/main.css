@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main {
+    background-color: #ED4C5C;
+    height: auto;
+}
+
+.main::marker {
+    color: teal;
+}
+
+.main .content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 94px;
+}
+
+.main .content .title {
+    max-width: 445px;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.main .content .title h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.main .content .title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.main .content .title .icon {
+    max-width: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.main .content .slider {
+    max-width: 533px;
+    width: 100%;
+}
+
