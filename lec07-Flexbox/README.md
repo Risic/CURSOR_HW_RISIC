@@ -4,4 +4,4 @@
 
 GitPages:
 
-https://risic.github.io/CURSOR_HW_RISIC/lec07-Flexbox-homework/
+https://risic.github.io/CURSOR_HW_RISIC/lec07-Flexbox/
