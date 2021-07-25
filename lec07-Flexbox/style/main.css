@@ -12,11 +12,28 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, p, button, a, img {
+    transition: 0.7s;
+}
+
+h1:hover, h2:hover, h3:hover, p:hover, button:hover, a:hover, img:hover {
+    transform: scale(1.02);
+}
+
 .container {
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    transition: 1s;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+.content {
+    flex-wrap: wrap;
 }
 
 .header .content {
@@ -36,6 +53,12 @@ a {
 
 .header .content .logo {
     margin-right: 120px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.header .content .logo:hover {
+    transform: scale(1.02);
 }
 
 .header .content .nav {
@@ -45,10 +68,21 @@ a {
     line-height: 26px;
 }  
 
+.header .content .nav li {
+    transition: all 0.3s;
+}
+
 .header .content .nav li a {
     margin-right: 40px;
     color: #4B5D68;
-    font-weight: 60;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.header .content .nav li:hover, .header .content .nav li a:hover {
+    transform: scale(1.2);
+    color: black;
+    text-decoration: underline black;
 }
 
 .header .content .header-btn {
@@ -136,6 +170,7 @@ a {
 .about .about-btn:hover {
     background: white;
     color: #9C69E2;
+    border: 2px solid #9C69E2;
 }
 
 .info .content {
@@ -303,7 +338,13 @@ a {
     border-radius: 20px;
     padding: 60px 103px;
     margin-bottom: 60px;
+    transition: 1s;
 }
+
+.feed .content .self:hover {
+    transform: scale(1.02);
+}
+
 
 .feed .content .self .text {
     margin-left: 44px;
@@ -333,6 +374,10 @@ a {
     color: #9C69E2;
 }
 
+.feed .content .self .text a:hover {
+    text-decoration: underline #9C69E2;
+}
+
 .feed .content .self .text p {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -346,6 +391,15 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.feed .content .bottom img {
+    transition: all 0.3s;
+}
+
+.feed .content .bottom img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .feed .content .bottom ul {
@@ -363,8 +417,9 @@ a {
     border-radius: 50%;
 }
 
-.feed .content .bottom ul li:nth-child(1) {
+.feed .content .bottom ul li:hover {
     background-color: #F063B8;
     transform: scale(2);
+    cursor: pointer;
 }
 
