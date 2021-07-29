@@ -4,4 +4,4 @@
 
 GitPages:
 
-https://risic.github.io/CURSOR_HW_RISIC/lec08-Table/
+https://risic.github.io/CURSOR_HW_RISIC/Lec08-Table/
