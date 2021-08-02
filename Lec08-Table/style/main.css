@@ -72,3 +72,55 @@ i:hover {
     transform: scale(1.02);
     transform: rotate(360deg);
 }
+
+form {
+    display: inline-block;
+}
+
+
+.table.check i {
+    color: white;
+}
+
+.table.check td:nth-child(1) {
+    padding-right: 321px;
+}
+
+.table.check input {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.file tbody td:nth-child(1) i {
+    color: #3c82fc;
+    margin-right: 10px;
+}
+
+.file td:nth-child(1) {
+    padding-right: 322.36px;
+}
+
+.file td:nth-child(2) {
+    padding-right: 182px;
+}
+
+.file thead td:nth-child(3) {
+    padding: 0;
+}
+
+.file thead .input-search {
+    color: #f7f4f4;
+    border: none;
+    padding: 12px 0 12px 42px;
+    border-radius: 6px;
+    background: url(../image/search.svg) no-repeat;
+    background-size: 80px;
+    background-position: -17px;
+    background-color: rgb(80, 80, 80);
+}
+
+.file tbody td:nth-child(3) {
+    padding-left: 190px;
+    color: white;
+}
