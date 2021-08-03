@@ -60,6 +60,7 @@ body {
     color: white;
     position: relative;
     transition-duration: 0.5s;
+    text-transform: uppercase;
 }
 
 .main .wrapper-btn button::before {
