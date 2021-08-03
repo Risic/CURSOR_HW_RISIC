@@ -1,0 +1,95 @@
+body {
+    background: rgb(32,98,37);
+    background: radial-gradient(circle, rgba(32,98,37,0.8550770650056898) 0%, rgba(51,41,144,0.7122199221485469) 100%);
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: rgb(90,34,195);
+    background: linear-gradient(0deg, rgba(90,34,195,1) 0%, rgba(28,25,19,1) 100%);
+}
+
+.main .wrapper-div {
+    display: grid;
+    justify-content: center;
+    padding: 25px;
+    grid-template: repeat(6, 100px) / repeat(4, 100px);
+    grid-gap: 20px;
+}
+
+.main .wrapper-div .item {
+    background-color: grey;
+    transition-duration: 0.7s;
+    border-radius: 3px;
+}
+
+.main .wrapper-div .item:hover {
+    transform: scale(1.2);
+}
+
+.main .wrapper-div .item:nth-child(4n-1) {
+    background-color: red !important;
+}
+
+.main .wrapper-div .item:nth-child(1n+21) {
+    background-color: blue;
+}
+
+.main .wrapper-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.main .wrapper-btn button {
+    background-color: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+    width: 501px;
+    height: 92px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+.main .wrapper-btn button::before {
+    content: ' ';
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    position: absolute;
+    transform: translate(-100%, -50%);
+    right: 70%;
+    top: 50%;
+}
+
+.main .wrapper-btn button::after {
+    content: ' ';
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    position: absolute;;
+    transform: translate(100%, -50%);
+    top: 50%;
+    left: 70%;
+}
+
+.main .wrapper-btn button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: white;
+    color: #44D3A8;
+    border: 2px solid #44D3A8;
+}
