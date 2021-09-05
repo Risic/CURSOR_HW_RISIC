@@ -1,12 +1,382 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Grid</title>
 </head>
 <body>
-    
+    <div class="startBlock">
+        <div class="container">
+            <div class="content">
+                <header class="header">
+                    <div class="header__menu">
+                        <img src="./image/Logo.svg" alt="Logo" class="menu__logo">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Квартира</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__contact">
+                        <a href="#" class="contact__item mail"> mail@yandex.ru </a>
+                        <a href="#" class="contact__item tel"> +7 (919) 714-25-00 </a>
+                        <button type="button" class="button contact__btn">Заказать звонок</button>
+                    </div>
+                </header>
+                <div class="content__main">
+                    <div class="main__text">
+                        <h1 class="title">
+                            Аренда квартир <br> в Березниках
+                        </h1>
+                        <p class="text-info">
+                            На длительный срок <br> или посуточно
+                        </p>
+                        <button class="button button__look">
+                            Смотреть варианты
+                        </button>
+                    </div>
+                    <img class="main__img" src="./image/home.png" alt="home photo">
+                </div>
+                <div class="section__cards">
+                    <div class="cards">
+                        <div class="cardsWrapper">
+                            <div class="cards__item">
+                                <img class="card__img" src="./image/Card1.svg" alt="Documents image">
+                                <p calss="card__info">
+                                    Заключаем договоры, предоставляет отчётные документы
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cardsWrapper">
+                            <div class="cards__item">
+                                <img class="card__img" src="./image/Card2.svg" alt="Money image">
+                                <p calss="card__info">
+                                    Наличный и <br> безналичный расчёт
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cardsWrapper">
+                            <div class="cards__item">
+                                <img class="card__img" src="./image/card3.svg" alt="Time image">
+                                <p calss="card__info">
+                                    Бронирование и заселение круглосуточно
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cardsWrapper">
+                            <div class="cards__item">
+                                <img class="card__img" src="./image/card4.svg" alt="Safaty image">
+                                <p calss="card__info">
+                                    Полная <br> конфиденциальность
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="apartment">
+        <div class="container">
+            <div class="content">
+                <h2 class="title">
+                    Наши кваритры
+                </h2>
+                <div class="wrapper__range">
+                    <div class="range">
+                        <div class="wrapper-item1">
+                            <div class="item">
+                                <p class="range__title">
+                                    Однокомнатня квартира
+                                </p>
+                                <p class="range__price">
+                                    Сутки: <span class="range__price-icon">&nbsp1 500 &#8381</span>
+                                </p>
+                                <p class="range__location">
+                                    Березники, ул. Юбилейная 108
+                                </p>
+                                <button type="button" class="button range__button">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                        <div class="wrapper-item2">
+                            <div class="item">
+                                <p class="range__title">
+                                    Трёхкомнатная квартира
+                                </p>
+                                <p class="range__price">
+                                    Сутки: <span class="range__price-icon">&nbsp1 300 &#8381</span>
+                                </p>
+                                <p class="range__location">
+                                    Березники, ул. Гагарина 89
+                                </p>
+                                <button type="button" class="button range__button">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                        <div class="wrapper-item3">
+                            <div class="item">
+                                <button class="button range__button status">
+                                    Новая квартира
+                                </button>
+                                <p class="range__title">
+                                    Двухкомнатная квартира
+                                </p>
+                                <p class="range__price">
+                                    Сутки: <span class="range__price-icon">&nbsp1 700 &#8381</span>
+                                </p>
+                                <p class="range__location">
+                                    Березники, ул. Власова 14
+                                </p>
+                                <button type="button" class="button range__button">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                        <div class="wrapper-item4">
+                            <div class="item">
+                                <p class="range__title">
+                                    Пятикомнатная квартира
+                                </p>
+                                <p class="range__price">
+                                    Сутки: <span class="range__price-icon">&nbsp4 100 &#8381</span>
+                                </p>
+                                <p class="range__location">
+                                    Березники, ул. Шмидта 10
+                                </p>
+                                <button type="button" class="button range__button">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper__button">
+                    <button class="button apartment__button">
+                    Смотреть все кваритры 
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="content">
+                <h2 class="title">
+                    О нас
+                </h2>
+                <div class="description">
+                    <p class="description__text">
+                        Сегодня «Домашняя гостиница» — одна из крупнейших в Пермском крае гостиничных сетей, динамично расширяющая географический охват и повышающая качество сервиса.
+                    </p>
+                    <div class="description__images">
+                        <img class="desc__image" src="./image/descOne.svg" alt="Counter client">
+                        <img class="desc__image" src="./image/descTwo.svg" alt="Counter feedback">
+                        <img class="desc__image" src="./image/descThree.svg" alt="Counter apartment">
+                    </div>
+                </div>
+                <div class="about__underline">
+                    <div class="block1"></div>
+                    <div class="block2"></div>
+                    <div class="block3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="content">
+                <div class="contact__links">
+                    <h2 class="title">
+                        Контакты
+                    </h2>
+                    <span class="link">
+                        <img src="./image/location-icon2.svg" alt="location icon">
+                        <p>Пермский край, город Березники</p> 
+                    </span>
+                    <span class="link">
+                        <img src="./image/mail-icon2.svg" alt="email icon">
+                        <p>mail@yandex.ru</p> 
+                    </span>
+                    <span class="link">
+                        <img src="./image/tele-icon2.svg" alt="telephone icon">
+                        <p>+7 (919) 714-25-00</p> 
+                    </span>
+                    <span class="link">
+                        <img src="./image/inst-icon.svg" alt="telephone icon">
+                        <p>arendakvartir59</p> 
+                        <button type="button" class="button link__button">
+                            Подписаться
+                        </button>
+                    </span>
+                    <span class="link">
+                        <img src="./image/vk-icon.svg" alt="telephone icon">
+                        <p>arendakvartir59</p> 
+                        <button type="button" class="button link__button">
+                            Подписаться
+                        </button>
+                    </span>
+                </div>
+                <div class="contact__image-map">
+                    <img src="./image/Map.jpg" alt="map image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="content">
+                <h2 class="klient__feedback">
+                    Отзывы клиентов
+                </h2>
+                <div class="feedback__grid-wrapper">
+                    <div class="arrows">
+                        <div class="arrow left-arrow">
+                            <img src="./image/arrow.svg" alt="left arrow">
+                        </div>
+                        <div class="arrow right-arrow">
+                            <img src="./image/arrow.svg" alt="right arrow">
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="title-wrapper">
+                            <h3 class="title">
+                                Уютная квартира
+                            </h3>
+                            <img src="./image/stars.svg" alt="Stars">
+                        </div>
+                        <p class="item-info">
+                            Первый раз отдыхали в Березниках, времени было мало соответственно жильё искали заранее. Залог вносили с опасением, и очень рады что они были напрасными. Всё супер. Нам понравилось!
+                        </p>
+                        <p class="username">
+                            Екатерина Трушникова
+                        </p>
+                        <div class="down-wrapper">
+                            <p class="city">
+                                г. Пермь
+                            </p>
+                            <p class="date">
+                                2 января 2021
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="title-wrapper">
+                            <h3 class="title">
+                                Клёвый вид на город
+                            </h3>
+                            <img src="./image/stars.svg" alt="Stars">
+                        </div>
+                        <p class="item-info">
+                            Хочу поблагодарить за квартиру на ул. Юбилейной, д. 108. Удобное месторасположение, совсем рядом с центром. Квартира уютная, соседей не слышно, мы прекрасно отдохнули. Все что нужно для приготовления еды есть.
+                        </p>
+                        <p class="username">
+                            Иван Огородников
+                        </p>
+                        <div class="down-wrapper">
+                            <p class="city">
+                                г. Краснокамск
+                            </p>
+                            <p class="date">
+                                15 сентября 2019
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="dots">
+                    <li class="dots-item"></li>
+                    <li class="dots-item"></li>
+                    <li class="dots-item"></li>
+                    <li class="dots-item"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="content">
+                <div class="wrapper-content">
+                    <form action="#" class="grid-form">
+                        <h2 class="title">
+                            Напишите нам
+                        </h2>
+                        <input class="form-text form-name" type="text" name="name" placeholder="Имя">
+                        <input class="form-text form-email" type="email" name="email" placeholder="Email">
+                        <textarea class="form-text form-area" name="textarea" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                        <button type="submit" class="button form-button">
+                            Отправить
+                        </button>
+                    </form>
+                    <div class="form-about">
+                        <p class="aboutText">
+                            Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе, или опубликуем его на нашем сайте.
+                        </p>
+                        <h2 class="title titleUser">
+                            Татьяна Вячеславовна
+                        </h2>
+                        <p class="statusUser">
+                            Директор гостиницы
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content-shadow">
+                <div class="content">
+                    <div class="down__header-wrapper">
+                        <div class="header down">
+                            <div class="header__menu down">
+                                <img src="./image/Logo.svg" alt="Logo" class="menu__logo">
+                                <ul class="menu__list dovn">
+                                    <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                                    <li class="menu__item"><a href="#" class="menu__link">Квартира</a></li>
+                                    <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                                    <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__contact down">
+                                <a href="#" class="contact__item mail down"> mail@yandex.ru </a>
+                                <a href="#" class="contact__item tel down"> +7 (919) 714-25-00 </a>
+                                <div class="footer-link">
+                                    <span class="link">
+                                        <img src="./image/telegramm-icon.svg" alt="Telegramm icon">
+                                    </span>
+                                    <span class="link">
+                                        <img src="./image/facebook-icon.svg" alt="Facebook icon">
+                                    </span>
+                                    <span class="link">
+                                        <img src="./image/vk-icon.svg" alt="Wk icon">
+                                    </span>
+                                    <span class="link">
+                                        <img src="./image/inst-icon.svg" alt="Instagram icon">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        <div class="grid-copy one">
+                            © Copyright 2021, «Домашняя гостиница»
+                        </div>
+                        <div class="grid-copy two">
+                            Пользовательское соглашение
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
