@@ -149,12 +149,47 @@
         color: #4f4f4f;
     }
 
+    .channels__items-flex img {
+        margin: 15px 10px;
+    }
+
     .team {
-        background: none;
+        background: url(../img/team-bg.svg) bottom no-repeat;
+        padding: 19px 0 310px 0;
+        background-size: 100%;
     }
 
     .team__info {
         margin: 0;
+        text-align: center;
+    }
+
+    .footer__flex-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__list.nav__list {
+        justify-content: space-between;
+    }
+
+    .nav__item-link {
+        margin-right: 0;
+    }
+
+    .footer__logo.logo {
+        order: 1;
+        margin-bottom: 11px;
+    }
+
+    .footer__social {
+        order: 2;
+        margin-bottom: 34px;
+    }
+
+    .footer__nav.nav {
+        order: 3;
+        width: 100%;
     }
 
     .del {
