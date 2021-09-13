@@ -149,6 +149,22 @@
         color: #4f4f4f;
     }
 
+    .slider__leftArrow {
+        display: none;
+    }
+
+    .slider__items-flex {
+        margin-bottom: 33px;
+    }
+
+    .slider__arrow-flex {
+        position: absolute;
+        display: block;
+        width: 100%;
+        left: 3.5%;
+        top: 57px;
+    }
+
     .channels__items-flex img {
         margin: 15px 10px;
     }

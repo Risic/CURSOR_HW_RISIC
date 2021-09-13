@@ -232,7 +232,7 @@ a {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    /* width: 115%; */
+    width: 115%;
     left: -7.5%;
     top: 57px;
 }
